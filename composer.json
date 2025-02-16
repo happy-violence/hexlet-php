@@ -1,0 +1,11 @@
+{
+    "name": "svetlana/hexlet-php",
+    "description": "training project",
+    "authors": [
+        {
+            "name": "Svetlana Makarova",
+            "email": "CBETA-MAKAPOBA@yandex.ru"
+        }
+    ],
+    "require": {}
+}
