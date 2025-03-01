@@ -1,5 +1,10 @@
 {
     "name": "svetlana/hexlet-php",
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
     "description": "training project",
     "authors": [
         {
@@ -7,5 +12,13 @@
             "email": "CBETA-MAKAPOBA@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^11.43"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }
